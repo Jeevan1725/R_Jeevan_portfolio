@@ -53,11 +53,6 @@ export function Hero() {
       </div>
 
       <div className="relative mx-auto flex min-h-[100dvh] max-w-7xl flex-col justify-start px-5 pb-8 pt-36 md:px-10 lg:h-full lg:min-h-0 lg:justify-end lg:pb-0 lg:pt-20">
-        <div className="absolute right-10 top-24 hidden text-right font-mono text-xs leading-relaxed tracking-[0.15em] lg:block">
-          <p className="text-neon">ETHICAL HACKER</p>
-          <p className="text-muted-foreground">SECURITY RESEARCHER</p>
-        </div>
-
         <div className="grid items-end gap-x-8 gap-y-4 lg:grid-cols-[auto_minmax(0,1fr)_auto] xl:gap-x-12">
           <Portrait
             alt="R Jeevan wearing sunglasses and a black hoodie"

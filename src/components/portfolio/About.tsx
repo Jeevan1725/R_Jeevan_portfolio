@@ -80,7 +80,7 @@ export function About() {
             ))}
           </div>
           <ShowMoreButton open={open} onClick={() => setOpen((o) => !o)} more="Read more about me" allSizes className="mt-3" />
-          <div className="mt-8 grid grid-cols-3 divide-x divide-border">
+          <div className="mt-8 grid grid-cols-2 divide-x divide-border">
             {highlights.map((h) => (
               <div key={h.title} className="px-4 first:pl-0">
                 <p className="font-display text-xl font-bold">{h.title}</p>

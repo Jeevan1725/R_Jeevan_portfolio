@@ -40,13 +40,11 @@ export const terminal = [
       "school: amrita vishwa vidyapeetham",
     ],
   },
-  { cmd: "./status --disclosure", out: ["> critical auth bug reported · accepted"] },
 ];
 
 export const highlights = [
   { title: "ISC2 CC", sub: "Certified in Cybersecurity" },
   { title: "AWS CCP", sub: "Cloud Practitioner · 925" },
-  { title: "SCOPUS", sub: "Published book chapter" },
 ];
 
 export const expertise = [
@@ -68,7 +66,7 @@ export const expertise = [
   {
     icon: "shield",
     title: "Security Research",
-    body: "Finding and responsibly disclosing real flaws — from a critical banking authentication bug to hardcoded keys in an app.",
+    body: "Finding and responsibly disclosing real flaws — including hardcoded keys and exposed tokens.",
   },
   {
     icon: "flag",
@@ -127,17 +125,17 @@ export const work = [
   },
   {
     tag: "DISCLOSURE",
-    org: "BANKING & PROCTORING",
+    org: "EXAM-PROCTORING APP",
     year: "2026",
     title: "Real vulnerabilities, responsibly disclosed.",
-    body: "Identified a critical authentication flaw in a digital banking platform, accepted through its Responsible Disclosure Program. Separately reported 5 weaknesses in an exam-proctoring app, including a hardcoded encryption key and plaintext OAuth tokens.",
+    body: "Reported 5 weaknesses in an exam-proctoring app, including a hardcoded encryption key and plaintext OAuth tokens.",
     metrics: [
-      { v: "Critical", l: "Banking bug" },
       { v: "5", l: "Proctor findings" },
-      { v: "2", l: "Disclosures" },
+      { v: "2", l: "Examples cited" },
+      { v: "1", l: "App reported" },
     ],
     stack: ["Vuln Assessment", "Auth Testing", "Reporting"],
-    badge: { label: "Status", value: "Accepted" },
+    badge: { label: "Status", value: "Reported" },
     image: "disclosure",
   },
   {
@@ -202,6 +200,5 @@ export const journey = [
   { date: "2025", title: "Co-Organizer — Amrita Cyber Nation 2025", place: "National online cybersecurity event · 75+ participants" },
   { date: "2025–26", title: "Winner · Runner-Up · Top 10 finishes", place: "DTU Fortune'25, IIM Kashipur, CyberShield 2026, SETS Gameathon" },
   { date: "Feb 2026", title: "1st Place — Logic Links, VCC 2026", place: "Vel Tech CyberCatalyst · Team no_thing" },
-  { date: "2026", title: "Chapter in The Essentials of SOC (CRC Press)", place: "Adversarial Robustness of Cipher Classification Models · SCOPUS" },
   { date: "Aug – Oct 2026", title: "ISC2 CC · AWS CCP · Splunk CDA", place: "Three industry certifications in three months" },
 ];
