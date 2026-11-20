@@ -59,21 +59,21 @@ export function Hero() {
             className="anim-hero-photo hidden aspect-[900/1124] h-[calc(100dvh-6rem)] max-w-[44vw] w-auto lg:block"
           />
 
-          <div className="anim-hero mx-auto max-w-2xl text-center lg:mx-0 lg:ml-auto lg:max-w-none lg:pb-10 lg:text-right">
+          <div className="anim-hero mx-auto max-w-2xl text-center lg:mx-0 lg:ml-auto lg:max-w-none lg:pb-12 lg:-translate-y-16 lg:text-right">
             <Portrait
               ariaHidden
               className="anim-hero-photo mx-auto mb-3 aspect-[900/1124] h-[34dvh] w-auto lg:hidden"
             />
-            <p className="font-script text-3xl text-cyber md:text-5xl">Hello, I'm</p>
-            <h1 className="mt-1 whitespace-nowrap font-display text-[clamp(2.5rem,7vw,5.5rem)] font-bold uppercase leading-[0.9] tracking-[-0.05em] lg:text-[clamp(3rem,5.5vw,5.5rem)]">
+            <p className="font-script text-4xl text-cyber md:text-5xl lg:text-7xl">Hello, I'm</p>
+            <h1 className="mt-1 whitespace-nowrap font-display text-[clamp(3rem,8vw,5.75rem)] font-bold uppercase leading-[0.9] tracking-[-0.05em] lg:text-[clamp(4rem,7vw,7.25rem)]">
               {profile.firstName} <span className="glow-text text-neon">{profile.lastName}</span>
             </h1>
-            <p className="mt-3 font-display text-sm md:text-lg font-bold uppercase leading-snug tracking-wide text-neon">
+            <p className="mt-3 font-display text-sm font-bold uppercase leading-snug tracking-wide text-neon md:text-lg lg:text-2xl">
               {profile.role[0]}
               <br />
               {profile.role[1]}
             </p>
-            <p className="mt-3 hidden max-w-md leading-relaxed text-muted-foreground mx-auto sm:block lg:mr-0">{profile.tagline}</p>
+            <p className="mt-3 hidden max-w-md leading-relaxed text-muted-foreground mx-auto sm:block lg:mr-0 lg:max-w-xl lg:text-xl">{profile.tagline}</p>
             <div className="mt-4 flex flex-wrap justify-center gap-3 lg:mt-6 lg:justify-end">
               <Link to="/" hash="work" className="btn-neon">
                 View My Work <ArrowRight className="h-4 w-4" />
